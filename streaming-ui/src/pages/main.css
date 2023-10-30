@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+:root {
+  font-family: Oxygen, Outfit, Ubuntu;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: bold 700;
+  line-height: 1.1;
+}
+
+.container {
+  margin: 0px auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.body-box {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.body-box .background {
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.body-box .background img {
+  filter: brightness(60%);
+}
+
+.navbar-container {
+  position: sticky;
+  display: flex;
+  width: 90vw;
+  height: 60px;
+  margin: auto;
+  z-index: 2;
+  padding-top: 5px;
+}
+.navbar-container-bg {
+  background-color: #000;
+}
+.navbar-box {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+}
+.navbar-item-logo {
+  cursor: pointer;
+  width: 190px;
+  height: 80px;
+  filter: drop-shadow(4px 4px 1px rgb(17, 17, 17));
+}
+.navbar-item-menu {
+  padding-left: 20px;
+}
+.navbar-item-menu a {
+  color: #fff;
+  font: bold 14px Oxygen;
+}
+.navbar-item-menu a:hover {
+  color: #ffdada;
+  text-decoration: underline;
+}
+.navbar-box-icons {
+  width: 100%;
+  display: flex;
+  place-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 20px;
+}
+.navbar-box-icons-red {
+  color: #f00;
+  cursor: pointer;
+}
+
+.title-container {
+  display: block;
+  width: 90vw;
+  height: 600px;
+  margin: auto;
+  z-index: 2;
+  padding-top: 120px;
+  padding-left: 25px;
+}
+.title-box {
+  display: flex;
+  width: 650px;
+  place-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.title-box-item {
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 13px;
+  align-items: center;
+}
+.title-box-logo {
+  max-width: 450px;
+  max-height: 450px;
+}
+.title-box-genre {
+  color: #dadada;
+  font: bold 20px Ubuntu;
+  letter-spacing: 0.2em;
+}
+.title-box-info {
+  color: #dadada;
+  font: normal 16px Ubuntu;
+  letter-spacing: 0.2em;
+}
+.title-box-crew {
+  color: #acacac;
+  font: bold 20px Oxygen;
+}
+.title-box-crew-info {
+  color: #ffffff;
+  font: bold 20px Oxygen;
+}
+.title-box-summary {
+  color: #ffffff;
+  font: normal 20px Outfit;
+  padding-bottom: 15px;
+}
+.title-box-play {
+  width: 170px;
+  height: 40px;
+  background-color: #f00;
+  border: solid 1px #f00;
+  border-radius: 8px;
+  color: #ffffff;
+  font: normal 24px Ubuntu;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 20px;
+}
+.play-button {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  margin-right: 10px;
+}
+.title-box-mylist {
+  width: 200px;
+  height: 40px;
+  background-color: #4d4d4d;
+  border: solid 1px #4d4d4d;
+  border-radius: 8px;
+  color: #ffffff;
+  font: normal 24px Ubuntu;
+  cursor: pointer;
+  align-items: center;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+.video-button {
+  z-index: 2;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}

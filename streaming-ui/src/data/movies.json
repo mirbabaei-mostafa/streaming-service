@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Killers of the Flower Moon",
+    "year": 2023,
+    "duration": 206,
+    "genre": ["Crime", "Drama", "History"],
+    "director": "Martin Scorsese",
+    "stars": ["Leonardo DiCaprio", "Robert De Niro", "Lily Gladstone"],
+    "summary": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.",
+    "logo": "KillersOfTheFlowerMoon.png",
+    "poster": "KillersOfTheFlowerMoon.jpg",
+    "background": "KillersOfTheFlowerMoon.jpg",
+    "video": "KillersOfTheFlowerMoon.mp4"
+  }
+]

@@ -1,0 +1,73 @@
+npm i axios firebase react-router-dom
+
+# - axios: Promise based HTTP client for the browser and node.js
+
+# - firebase: Firebase JavaScript library for web and Node.js
+
+# - react-router-dom: Declarative routing for React web applications
+
+#### Redux
+
+npm i react-redux @reduxjs/toolkit
+
+# - react-redux: Official React bindings for Redux
+
+# - @reduxjs/toolkit: The official, opinionated, batteries-included toolset for efficient Redux development
+
+#### FORM
+
+npm i react-select react-hook-form yup @hookform/resolvers
+
+# - react-select: A Select control built with and for ReactJS
+
+# - react-hook-form: Performant, flexible and extensible forms library for React Hooks
+
+# - yup: Dead simple Object schema validation
+
+# - @hookform/resolvers: React Hook Form validation resolvers: Yup, Joi, Superstruct, Zod, Vest, Class Validator, io-ts, Nope, computed-types, TypeBox, arktype and Typanion
+
+#### Style
+
+npm i styled-components react-icons
+
+# - styled-components: CSS for the <Component> Age. Style components your way with speed, strong typing, and flexibility.
+
+#### Formatjs
+
+npm i i18next react-i18next i18next-http-backend i18next-browser-languagedetector
+
+# - i18next: i18next is a very popular internationalization framework for browser or any other javascript environment
+
+# - react-i18next:
+
+# - i18next-http-backend: This is a simple i18next backend to be used in Node.js, in the browser and for Deno
+
+# - i18next-browser-languagedetector: This is a i18next language detection plugin use to detect user language in the browser
+
+#### -----------------------
+
+#### ESLint
+
+# - eslint: ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
+
+npm i @typescript-eslint/eslint-plugin
+
+# - @typescript-eslint/eslint-plugin: TypeScript plugin for ESLint
+
+# - @typescript-eslint/parser: An ESLint custom parser which leverages TypeScript ESTree
+
+# - :
+
+# - :
+
+# - :
+
+# - :
+
+# - :
+
+# - :
+
+# - :
+
+# - :

@@ -1,0 +1,74 @@
+.signup {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  margin: 30px auto;
+  padding: 50px;
+  background-color: rgb(59, 59, 59);
+  border: solid 1px rgb(59, 59, 59);
+  border-radius: 10px;
+  opacity: 80%;
+}
+.signup-title {
+  font: bold 32px Ubuntu;
+  color: #fff;
+  padding-bottom: 25px;
+  padding-top: 50px;
+}
+.signup-description {
+  font: normal 18px Ubuntu;
+  color: #fff;
+  padding-bottom: 26px;
+}
+.signup-div {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 500px;
+  height: 50px;
+  border: solid 1px #d3d3d3;
+  border-radius: 5px;
+  background-color: #5f5f5f;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+.signup-div-title {
+  border: 0px;
+  background-color: #5f5f5f;
+  font: normal 12px Ubuntu;
+  color: #b3b3b3;
+  padding-bottom: 7px;
+}
+.signup-div-input {
+  border: 0px;
+  background-color: #5f5f5f;
+  font: normal 18px Ubuntu;
+  color: #fff;
+}
+.signup-warning {
+  font: bold 13px Ubuntu;
+  color: #ff0000;
+  padding: 15px;
+}
+.signup-div-button {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center; */
+  width: 530px;
+  height: 50px;
+  border: solid 1px #ff0000;
+  border-radius: 5px;
+  background-color: #ff0000;
+  margin-bottom: 20px;
+  font: normal 24px Ubuntu;
+  color: #fff;
+  cursor: pointer;
+}
+.signup-div-gap {
+  padding: 25px;
+}

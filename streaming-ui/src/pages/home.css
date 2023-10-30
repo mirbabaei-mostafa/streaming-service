@@ -1,0 +1,54 @@
+.getstarted {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 450px;
+}
+.getstarted-title {
+  font: bold 42px Ubuntu;
+  color: #fff;
+  padding-bottom: 25px;
+}
+.getstarted-subtitle {
+  font: normal 24px Ubuntu;
+  color: #fff;
+  padding-bottom: 25px;
+}
+.getstarted-description {
+  font: normal 18px Ubuntu;
+  color: #fff;
+  padding-bottom: 26px;
+}
+.getstarted-form {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 20px;
+}
+.getstarted-input {
+  font: normal 18px Ubuntu;
+  background-color: #363636;
+  color: #d1d0d0;
+  padding: 14px;
+  border: solid 1px #d1d0d0;
+  border-radius: 5px;
+  min-width: 300px;
+}
+.getstarted-button {
+  background-color: #ff0000;
+  color: #fff;
+  font: bold 22px Oxygen;
+  padding: 9px;
+  border: solid 1px #ff0000;
+  border-radius: 5px;
+}
+.getstarted-warning {
+  font: bold 13px Ubuntu;
+  color: #ff0000;
+  padding: 15px;
+}
